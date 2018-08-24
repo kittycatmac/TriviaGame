@@ -1,0 +1,37 @@
+body {
+    background-color: burlywood;/*url("assets/images/background.jpg");*/
+   
+}
+
+img {
+    width: 30%;
+    height: 50%;
+    position: relative;
+}
+
+.timer {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.bride {
+    position: relative;
+    width: 30%;
+    height: 50%;
+}
+
+.bridetwo {
+    position: relative;
+    width: 30%;
+    height: 50%;
+    
+}
+
