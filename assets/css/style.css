@@ -1,37 +1,81 @@
 body {
     background-color: burlywood;/*url("assets/images/background.jpg");*/
-   
+    box-sizing: border-box; 
+}
+h1 {
+    float: center;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+}
+
+.container {
+    float: left;
+    width: 40%;
 }
 
 img {
-    width: 30%;
-    height: 50%;
+    width: 80%;
+    height: 100%;
     position: relative;
 }
 
-.timer {
+.clock {
     width: 20%;
     height: 20%;
     position: absolute;
-    top: 180px;
-    left: 150px;
+    top: 300px;
+    left: 130px;
 }
 
-h1 {
+.timer {
+    font-family: butcherman;
+    font-size: 40px;
     text-align: center;
-    font-size: 50px;
+    left: 100px;
 }
 
-.bride {
-    position: relative;
-    width: 30%;
-    height: 50%;
+h2 {
+    font-family: butcherman;
+    font-size: 30px;
 }
 
-.bridetwo {
-    position: relative;
-    width: 30%;
-    height: 50%;
-    
+.mainArea {
+    width: 60%;
+    float: right;
 }
+
+.center-block {
+    width: 200px;
+    height: 200px;
+}
+.start-button {
+    font-family: butcherman;
+    color: black;
+    font-size: 80px;
+    text-decoration: none;
+}
+
+.text-center {
+    font-family: de-walpergens-pica;
+    font-size: 30px;
+}
+
+.answer {
+    font-family: de-walpergens-pica;
+    font-size: 20px;
+}
+
+.reset-button {
+    font-family: butcherman;
+    color: black;
+    font-size: 80px;
+    text-decoration: none;
+}
+
+.summary-correct {
+    font-family: de-walpergens-pica;
+    font-size: 20px;
+}
+
 
