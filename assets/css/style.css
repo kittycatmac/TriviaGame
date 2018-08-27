@@ -1,5 +1,6 @@
 body {
     background-color: burlywood;/*url("assets/images/background.jpg");*/
+    background-image: url("assets/images/spider-2882984_1280.png");
     box-sizing: border-box; 
 }
 h1 {
@@ -22,7 +23,7 @@ img {
 
 .clock {
     width: 20%;
-    height: 20%;
+    height: 30%;
     position: absolute;
     top: 300px;
     left: 130px;
@@ -78,4 +79,85 @@ h2 {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: burlywood;/*url("assets/images/background.jpg");*/
+        background-image: url("assets/images/spider-2882984_1280.png");
+        box-sizing: border-box; 
+    }
+    h1 {
+        float: center;
+        width: 100%;
+        text-align: center;
+        font-size: 80px;
+    }
+    
+    .container {
+        float: left;
+        width: 40%;
+    }
 
+    .clock {
+        display: none;
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        top: 300px;
+        left: 130px;
+    }
+    
+    .timer {
+        font-family: butcherman;
+        font-size: 20px;
+        text-align: center;
+        left: 100px;
+    }
+    
+    h2 {
+        font-family: butcherman;
+        font-size: 30px;
+    }
+    
+    .mainArea {
+        width: 100%;
+        float: right;
+    }
+    
+    .center-block {
+        width: 200px;
+        height: 200px;
+    }
+    .start-button {
+        font-family: butcherman;
+        color: black;
+        font-size: 40px;
+        text-decoration: none;
+    }
+    
+    .text-center {
+        font-family: de-walpergens-pica;
+        font-size: 20px;
+    }
+    
+    .answer {
+        font-family: de-walpergens-pica;
+        font-size: 10px;
+    }
+    
+    .reset-button {
+        font-family: butcherman;
+        color: black;
+        font-size: 80px;
+        text-decoration: none;
+    }
+    
+    .summary-correct {
+        font-family: de-walpergens-pica;
+        font-size: 20px;
+    }
+
+    .batimage {
+        display: none;
+    }
+    
+}
