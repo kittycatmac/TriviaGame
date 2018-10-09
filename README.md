@@ -9,5 +9,8 @@ Built with: HTML, Bootstrap, CSS and Javascript.
 # Deployment
 This is a very simple Trivia game, but if delpoyed as an app a database or an array file would be needed to store all the questions and answers.
 
+# Authors
+Catherine McMillen
+
 # Link
 https://kittycatmac.github.io/TriviaGame/
